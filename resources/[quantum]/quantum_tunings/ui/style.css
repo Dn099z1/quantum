@@ -1,0 +1,49 @@
+.display {
+  position: relative;
+}
+
+.bar-container {
+
+  display: flex;
+  align-items: center;
+  position: absolute;
+  left: 20%;
+  gap: 0.5rem;
+  padding: 0.5rem 1rem;
+  background-color: rgba(0, 0, 0, 0.6); /* Fundo preto com opacidade */
+  border-radius: 10px; /* Cantos arredondados */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.8); /* Efeito de sombra */
+}
+
+.bar {
+  display: none;
+  width: 12rem;
+  height: 0.5rem;
+  background-color: rgba(0, 0, 0, 0.4);
+  border: 2px solid rgba(255, 255, 255, 0.2);
+  border-radius: 25px;
+  overflow: hidden;
+}
+
+.barLevel {
+  height: 100%;
+  max-width: 100%;
+  border-radius: 25px;
+  transition: width 500ms linear;
+}
+
+.nos {
+  background-color: #0099ff;
+  box-shadow: 0 0 5px #0099ff;
+}
+
+.purge {
+  background: linear-gradient(90deg, #ff6f00, #ff0000);
+  box-shadow: 0 0 5px #ff4500;
+}
+
+.icon {
+  font-size: 1.5rem;
+  color: #fff;
+  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.7);
+}

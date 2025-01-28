@@ -1,0 +1,87 @@
+{
+    "token": "",
+    "client": {
+        "instagramLogo": "http://108.165.179.235/smartphone/apps/instagram_hand.png",
+        "bankLogo": "https://host-two-ochre.vercel.app/files/valley_sem_fundo.png",
+        "tinderLogo": "http://108.165.179.235/smartphone/stock/tinder/logo.svg",
+        "tinderFlame": "http://108.165.179.235/smartphone/stock/tinder/flame.png",
+        "apps": {
+            "whatsapp": { "name": "Whatsapp", "icon": "http://108.165.179.235/smartphone/apps/whatsapp.jpg" },
+            "tor": { "name": "Tor", "icon": "http://108.165.179.235/smartphone/apps/tor.jpg" },
+            "instagram": { "name": "Instagram", "icon": "http://108.165.179.235/smartphone/apps/instagram.jpg" },
+            "bank": "images/fleeca.webp",
+            "tinder": { "name": "Tinder", "icon": "http://108.165.179.235/smartphone/apps/tinder.webp" },
+            "yellowpages": { "name": "Yellow P.", "icon": "http://108.165.179.235/smartphone/apps/yellowpages.webp" },
+            "calculator": { "name": "Calculad.", "icon": "http://108.165.179.235/smartphone/apps/ios/calculator.webp" },
+            "notes": { "name": "Notas", "icon": "http://108.165.179.235/smartphone/apps/ios/notes.png" },
+    
+          
+            "settings": "http://108.165.179.235/smartphone/apps/ios/settings.webp",
+            "contacts": "http://108.165.179.235/smartphone/apps/ios/contacts.webp",
+            "sms": "http://108.165.179.235/smartphone/apps/ios/sms.webp",
+            "gallery": "http://108.165.179.235/smartphone/apps/ios/gallery.webp"
+          },
+        "bankType": "newvalley",
+        "uploadServer": "https://discord.com/api/webhooks/1318308709457203230/VTI2XqNxyx775ywcc-eyrlCCQEkeoleLwz7c81hWybgWv-DCBuGzjo6wNgyZH2iIQvbJ",
+        "allowUnsafeURL": true,
+        "videoServer": "ws://108.165.179.235:3000/",
+        "case": "iphone14pro",
+        "isAndroid": false,
+        "useGameClock": true,
+        "phone_template": "XXXX-XXXX",
+        "backgroundURL": "images/wallpaper.png",
+        "db_driver": "oxmysql",
+        "disabledApps": ["minesweeper","truco","paypal","olx","casino"],
+        "ringSound": "http://108.165.179.235/smartphone/apps/ring.ogg",
+        "notificationSound": "http://108.165.179.235/smartphone/apps/notification.ogg"
+    },
+    "exclusive": {
+        "weazel": {
+            "tags": [
+                "Noticias"
+            ],
+            "permission": "weazel.permission"
+        },
+        "casino": {
+            "maxBet": 10000
+        }
+    },
+    "call_mode": "pma-voice",
+    "webhookURL": "",
+    "instagram_verify": [
+        "Admin",
+        "Premium"
+    ],
+    "weazel_tags": "Admin",
+    "instagram_accounts": {
+        "*": 1,
+        "Admin": 2
+    },
+    "moderator": "Admin",
+    "item": "celular",
+    "tor_blocked": [
+        "Policia"
+    ],
+    "services": [
+        {
+            "name": "Policia",
+            "number": "911",
+            "permission": "Policia",
+            "dev": true
+        },
+        {
+            "name": "Paramédico",
+            "number": "912",
+            "permission": "Paramedico",
+            "dev": true
+        },
+        {
+            "name": "Mecânico",
+            "number": "0800 042",
+            "permission": "Mecanico",
+            "dev": true
+        }
+    ],
+    "base": "creative_extended",
+    "channel": "stable"
+}

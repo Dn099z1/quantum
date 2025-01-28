@@ -1,0 +1,78 @@
+{
+    "type": "AdaptiveCard",
+    "body": [
+        {
+            "type": "TextBlock",
+            "size": "ExtraLarge",
+            "weight": "Bolder",
+            "text": "Você não tem whitelist em nosso servidor!"
+        },
+        {
+            "type": "TextBlock",
+            "size": "Medium",
+            "text": "Fala Ai! , ${name}! Infelizmente, você não tem whitelist em nosso servidor.",
+            "wrap": true,
+            "spacing": "Medium"
+        },
+        {
+            "type": "Image",
+            "url": "https://host-two-ochre.vercel.app/files/valley_sem_fundo.png",
+            "size": "Medium",
+            "altText": "Imagem ilustrativa",
+            "horizontalAlignment": "Center"
+        },
+        {
+            "type": "TextBlock",
+            "text": "Para Realizar sua whitelist, clique no botão **Realizar Whitelist** ",
+            "wrap": true,
+            "spacing": "Medium"
+        },
+        {
+            "type": "TextBlock",
+            "size": "Medium",
+            "color": "green",
+            "text": "Seu identificador / ID: ${user_id}",
+            "isSubtle": true,
+            "wrap": true
+        },
+        {
+            "type": "TextBlock",
+            "text": "Você vai precisar de seu **identificador** quando realizar a **entrevista** e a **whitelist**, lembre-se dele!",
+            "wrap": true,
+            "spacing": "Medium"
+        },
+        {
+            "type": "Action.OpenUrl",
+            "title": "Acessar Discord",
+            "url": "https://discord.gg/newvalleyrp"
+        },
+        {
+            "type": "Action.Submit",
+            "title": "Fechar",
+            "data": {
+                "action": "closeCard"
+            }
+        }
+    ],
+    "actions": [
+        {
+            "type": "Action.OpenUrl",
+            "title": "Realizar whitelist",
+            "url": "https://discord.gg/newvalleyrp"
+        },
+        {
+            "type": "Action.OpenUrl",
+            "title": "Visite nosso site",
+            "url": "https://newvalley.online"
+        },
+        {
+            "type": "Action.Submit",
+            "title": "Fechar",
+            "data": {
+                "action": "closeCard"
+            }
+        }
+    ],
+    "$schema": "http://adaptivecards.io/schemas/adaptive-card.json",
+    "version": "1.6"
+}
