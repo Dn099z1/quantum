@@ -34,7 +34,7 @@ Antes de iniciar, certifique-se de ter os seguintes requisitos instalados:
    ```sh
    npm install -g pm2
    ```
-5. Abra o arquivo React.bat para iniciar as interfaces
+5. Abra o arquivo StartReact.bat para iniciar as interfaces
 6. Após todas as interfaces serem iniciadas, inicialize o servidor.
 
 
